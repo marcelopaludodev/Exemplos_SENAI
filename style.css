@@ -1,0 +1,131 @@
+/* ESTILO GERAL */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} /* Reset pra não ficar borda branca */
+
+body{
+    background-color: #000000;
+    height: 100vh;
+} /* Fundo preto */
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+} 
+
+.logo{
+    width: 100px;
+    height: 100px;
+} /* arrumar o tamanho do gato */
+
+.logo:hover {
+    transform: scaleX(-1);
+} /* gato virando */
+
+img {
+    max-width: 100%;
+}/* fix de bug */
+
+.flex{
+    display: flex;
+}
+
+.botao button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #e2d081;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+/* ESTILO DO HEADER */
+
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #777777;
+    text-decoration: none;
+
+    display: inline-block; /*Fix do transform*/
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .botao button:hover{
+    box-shadow: 0px 0px 8px rgb(224, 213, 53);
+}
+
+
+/* ESTILO DA MAIN (TOPO) */
+
+section .homepage{
+    padding: 40px 4%;
+}
+
+section .homepage .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.homepage h1{
+    color: #fff;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.homepage .esquerdo h1 span{
+    color: #e2d081;
+    font-size: 120px;
+}
+
+.homepage .esquerdo p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.homepage .esquerdo button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgb(224, 213, 53);
+}
+
+.direito img{
+    width: 500px;
+    height: 400x;
+    cursor: pointer;
+}
+
+.direito img:hover{
+    transform: scaleX(-1);
+}
