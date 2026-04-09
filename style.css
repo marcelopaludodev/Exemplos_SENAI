@@ -129,3 +129,18 @@ section .homepage .flex{
 .direito img:hover{
     transform: scaleX(-1);
 }
+
+.homepage .direito img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
