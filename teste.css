@@ -1,0 +1,35 @@
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    width: 360px;
+    margin: 32px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+}
+
+.card h2 {
+    margin: 0 0 8px;
+    color: #2b6cb0;
+}
+
+.card p {
+    margin: 0 0 12px;
+    color: #444;
+}
+
+.btn {
+    display: block;
+    width: max-content;
+    margin: 8px auto 0;
+    padding: 10px 16px;
+    background: #2b6cb0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}

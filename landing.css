@@ -1,0 +1,78 @@
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;;
+    background: #2f6cb0;
+    color: #fff;
+}
+
+.opcoes {
+    display: flex;
+    gap: 16px;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.opcoes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.centerarea{
+    margin-top: 0;
+    background-color: #dae4f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+
+}
+
+.centerarea h1{
+    color: #2b6cb0;
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+.botao{
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #2b6cb0;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+}
+
+.botao a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cards{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 12px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rodape p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b0abab;
+    display: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
