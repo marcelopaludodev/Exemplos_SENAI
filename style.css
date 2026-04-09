@@ -87,7 +87,7 @@ header .botao button:hover{
 }
 
 
-/* ESTILO DA MAIN (TOPO) */
+/* ESTILO DA MAIN (HOMEPAGE) */
 
 section .homepage{
     padding: 40px 4%;
@@ -120,13 +120,13 @@ section .homepage .flex{
     box-shadow: 0px 0px 8px rgb(224, 213, 53);
 }
 
-.direito img{
+.homepage .direito img{
     width: 500px;
     height: 400x;
     cursor: pointer;
 }
 
-.direito img:hover{
+.homepage .direito img:hover{
     transform: scaleX(-1);
 }
 
