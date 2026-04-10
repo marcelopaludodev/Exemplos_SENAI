@@ -144,3 +144,70 @@ section .homepage .flex{
         top: 30px;
     }
 }
+
+
+/* ESTILO DA MAIN ( ESPECIALIDADES ) */
+
+
+.especialidades{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.especialidades .cards{
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.especialidades .card{
+    padding: 40px 40px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.especialidades .card:hover{
+    border: 1px solid #e5e5e5;
+}
+
+.especialidades .card p{
+    font-size: small;
+    width: 300px;
+    line-height: 20px;
+}
+
+
+/* ESTILO DA MAIN (SOBRE) */
+
+.sobre .esquerdo1 img{
+    margin: 50px;
+    border-radius: 70%;
+}
+
+.sobre .direito1{
+    color: #fff;
+    margin: 50px;
+    padding: 40px 40px;
+    gap: 16px;
+}
+
+.sobre .direito1 p{
+    margin-top: 16px;
+}
+
+
+/* ESTILO DA MAIN (PROJETOS) */
+
+.projetos{
+    color: #fff;
+    text-align: center;
+}
+
+.projetos h3{
+    font-size: 120px;
+}
+
