@@ -1,5 +1,4 @@
-/* ESTILO GERAL */
-
+/* GERAL */
 
 *{
     margin: 0;
@@ -47,7 +46,7 @@ img {
 }
 
 
-/* ESTILO DO HEADER */
+/* HEADER */
 
 
 header{
@@ -87,7 +86,8 @@ header .botao button:hover{
 }
 
 
-/* ESTILO DA MAIN (HOMEPAGE) */
+/* HOMEPAGE */
+
 
 section .homepage{
     padding: 40px 4%;
@@ -146,13 +146,18 @@ section .homepage .flex{
 }
 
 
-/* ESTILO DA MAIN ( ESPECIALIDADES ) */
+/* ESPECIALIDADES */
 
 
 .especialidades{
     color: #fff;
     font-size: 40px;
     line-height: 50px;
+}
+
+.especialidades span{
+    color: #e2d081;
+    font-size: 120px;
 }
 
 .especialidades .cards{
@@ -168,10 +173,14 @@ section .homepage .flex{
     padding: 40px 40px;
     color: #fff;
     border-radius: 30px;
+
+    transition: .2s;
 }
 
 .especialidades .card:hover{
-    border: 1px solid #e5e5e5;
+    box-shadow: 0 0 8px #ffffff6c;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .especialidades .card p{
@@ -181,7 +190,8 @@ section .homepage .flex{
 }
 
 
-/* ESTILO DA MAIN (SOBRE) */
+/* SOBRE */
+
 
 .sobre .esquerdo1 img{
     margin: 50px;
@@ -200,7 +210,57 @@ section .homepage .flex{
 }
 
 
-/* ESTILO DA MAIN (PROJETOS) */
+
+
+
+
+
+.fadeout {
+    position: relative;
+    width: 300px;
+}
+
+.fadeout img {
+    width: 100%;
+    border-radius: 70%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    transition: opacity 0.4s ease;
+}
+
+/* imagem de baixo (inicial) */
+.gatu1 {
+    opacity: 1;
+}
+
+/* imagem escondida */
+.gatu2 {
+    opacity: 0;
+}
+
+/* quando passar o mouse */
+.fadeout:hover .gatu1 {
+    opacity: 0;
+}
+
+.fadeout:hover .gatu2 {
+    opacity: 1;
+}
+
+
+/* PROJETOS */
+
+section.projetos{
+    padding: 80px 4%;
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+}
+
 
 .projetos{
     color: #fff;
@@ -209,5 +269,107 @@ section .homepage .flex{
 
 .projetos h3{
     font-size: 120px;
+    margin-top: 20px;
 }
 
+.painel{
+    width: 360px;
+    height: 460px;
+    border-radius: 40px;
+
+    background-size: cover;
+    background-position: 100% 0%;
+
+    transition: 5s;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.painel:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000008f;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+/* FORMULARIO */
+
+section.formulario{
+    color: #fff;
+    text-align: center;
+    padding: 80px 4%;
+}
+
+.formulario h1{
+    margin-bottom: 20px;
+}
+
+.formulario h1 span{
+    color: #e2d081;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #66636367;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+
+    border: 0;
+    outline: 0;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .botaof{
+    margin-top: 20px;
+}
+
+form .botaof input{
+    width: 120px;
+    text-align: center;
+    background-color: #e2d081;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    
+    transition: .2s;
+}
+
+form .botaof input:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgb(224, 213, 53);
+}
