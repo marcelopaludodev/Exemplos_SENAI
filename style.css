@@ -164,7 +164,6 @@ section .homepage .flex{
     padding: 30px;
     display: flex;
     gap: 50px;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -372,4 +371,53 @@ form .botaof input{
 form .botaof input:hover{
     transform: scale(1.05);
     box-shadow: 0px 0px 8px rgb(224, 213, 53);
+}
+
+/* RODAPÉ */
+
+.logoL{
+    width: 100px;
+    height: 100px;
+ }
+
+.logoL:hover{
+    transform: scaleX(-1) scale(1.05);
+
+}
+
+.linhacima{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.redesocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.linha-divisoria{
+    width: 100%;
+    height: 2px;
+    background-color: #e2d081; 
+    margin: 20px 0;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.linhabaixo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.linhabaixo{
+    padding-bottom: 100px;
 }
