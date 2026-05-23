@@ -1,0 +1,78 @@
+/* GERAL */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+/* TELAS */
+
+.inicio{
+    margin: 100px;
+    padding: 100px;
+}
+
+.quiz{
+    margin: 100px;
+    padding: 100px;
+}
+
+.resultado{
+    margin: 100px;
+    padding: 100px;
+}
+
+/* CLASSES */
+
+.sorteio{
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: brown;
+
+    transition: .2s;
+}
+
+.botoes button{
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: brown;
+    margin: 15px;
+    padding: 15px;
+    
+    transition: .2s;
+}
+
+.retorno{
+    margin: 16px;
+}
+
+.voltar{
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: brown;
+    margin: 15px;
+    padding: 15px; 
+}
+
+/* HOVER */
+
+.sorteio:hover{
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+    scale: 1.5;
+}
+
+.botoes button:hover{
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+    scale: 1.5;
+}
+
+.voltar:hover{
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+    scale: 1.5;  
+}
